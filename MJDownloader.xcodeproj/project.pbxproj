@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CF8042D01DBE4773009CF20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042CF1DBE4773009CF20B /* AppDelegate.swift */; };
-		CF8042D21DBE4773009CF20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042D11DBE4773009CF20B /* ViewController.swift */; };
-		CF8042D51DBE4773009CF20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8042D31DBE4773009CF20B /* Main.storyboard */; };
 		CF8042D71DBE4773009CF20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8042D61DBE4773009CF20B /* Assets.xcassets */; };
 		CF8042DA1DBE4773009CF20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8042D81DBE4773009CF20B /* LaunchScreen.storyboard */; };
+		CF8042E61DBE47AC009CF20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8042E11DBE47AC009CF20B /* Main.storyboard */; };
+		CF8042E71DBE47AC009CF20B /* MZDownloadManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042E21DBE47AC009CF20B /* MZDownloadManagerViewController.swift */; };
+		CF8042E81DBE47AC009CF20B /* MZDownloadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042E31DBE47AC009CF20B /* MZDownloadedViewController.swift */; };
+		CF8042E91DBE47AC009CF20B /* MZAvailableDownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042E41DBE47AC009CF20B /* MZAvailableDownloadsViewController.swift */; };
+		CF8042EA1DBE47AC009CF20B /* MZDownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042E51DBE47AC009CF20B /* MZDownloadingCell.swift */; };
+		CF8042F01DBE47E4009CF20B /* MZDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042ED1DBE47E4009CF20B /* MZDownloadManager.swift */; };
+		CF8042F11DBE47E4009CF20B /* MZDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042EE1DBE47E4009CF20B /* MZDownloadModel.swift */; };
+		CF8042F21DBE47E4009CF20B /* MZUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8042EF1DBE47E4009CF20B /* MZUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF8042CC1DBE4772009CF20B /* MJDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8042CF1DBE4773009CF20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF8042D11DBE4773009CF20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF8042D41DBE4773009CF20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF8042D61DBE4773009CF20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8042D91DBE4773009CF20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8042DB1DBE4773009CF20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8042E11DBE47AC009CF20B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CF8042E21DBE47AC009CF20B /* MZDownloadManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadManagerViewController.swift; sourceTree = "<group>"; };
+		CF8042E31DBE47AC009CF20B /* MZDownloadedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadedViewController.swift; sourceTree = "<group>"; };
+		CF8042E41DBE47AC009CF20B /* MZAvailableDownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZAvailableDownloadsViewController.swift; sourceTree = "<group>"; };
+		CF8042E51DBE47AC009CF20B /* MZDownloadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadingCell.swift; sourceTree = "<group>"; };
+		CF8042ED1DBE47E4009CF20B /* MZDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadManager.swift; sourceTree = "<group>"; };
+		CF8042EE1DBE47E4009CF20B /* MZDownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadModel.swift; sourceTree = "<group>"; };
+		CF8042EF1DBE47E4009CF20B /* MZUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		CF8042CE1DBE4773009CF20B /* MJDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				CF8042EC1DBE47BD009CF20B /* DownloaderSource */,
 				CF8042CF1DBE4773009CF20B /* AppDelegate.swift */,
-				CF8042D11DBE4773009CF20B /* ViewController.swift */,
-				CF8042D31DBE4773009CF20B /* Main.storyboard */,
+				CF8042E11DBE47AC009CF20B /* Main.storyboard */,
+				CF8042E41DBE47AC009CF20B /* MZAvailableDownloadsViewController.swift */,
+				CF8042E21DBE47AC009CF20B /* MZDownloadManagerViewController.swift */,
+				CF8042E31DBE47AC009CF20B /* MZDownloadedViewController.swift */,
+				CF8042E51DBE47AC009CF20B /* MZDownloadingCell.swift */,
 				CF8042D61DBE4773009CF20B /* Assets.xcassets */,
 				CF8042D81DBE4773009CF20B /* LaunchScreen.storyboard */,
 				CF8042DB1DBE4773009CF20B /* Info.plist */,
 			);
 			path = MJDownloader;
+			sourceTree = "<group>";
+		};
+		CF8042EC1DBE47BD009CF20B /* DownloaderSource */ = {
+			isa = PBXGroup;
+			children = (
+				CF8042ED1DBE47E4009CF20B /* MZDownloadManager.swift */,
+				CF8042EE1DBE47E4009CF20B /* MZDownloadModel.swift */,
+				CF8042EF1DBE47E4009CF20B /* MZUtility.swift */,
+			);
+			name = DownloaderSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +117,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Jaleel;
 				TargetAttributes = {
 					CF8042CB1DBE4772009CF20B = {
@@ -124,9 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8042E61DBE47AC009CF20B /* Main.storyboard in Resources */,
 				CF8042DA1DBE4773009CF20B /* LaunchScreen.storyboard in Resources */,
 				CF8042D71DBE4773009CF20B /* Assets.xcassets in Resources */,
-				CF8042D51DBE4773009CF20B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +163,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8042D21DBE4773009CF20B /* ViewController.swift in Sources */,
+				CF8042F01DBE47E4009CF20B /* MZDownloadManager.swift in Sources */,
 				CF8042D01DBE4773009CF20B /* AppDelegate.swift in Sources */,
+				CF8042E91DBE47AC009CF20B /* MZAvailableDownloadsViewController.swift in Sources */,
+				CF8042E71DBE47AC009CF20B /* MZDownloadManagerViewController.swift in Sources */,
+				CF8042EA1DBE47AC009CF20B /* MZDownloadingCell.swift in Sources */,
+				CF8042F21DBE47E4009CF20B /* MZUtility.swift in Sources */,
+				CF8042F11DBE47E4009CF20B /* MZDownloadModel.swift in Sources */,
+				CF8042E81DBE47AC009CF20B /* MZDownloadedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CF8042D31DBE4773009CF20B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF8042D41DBE4773009CF20B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF8042D81DBE4773009CF20B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -182,6 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +257,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -302,6 +328,7 @@
 				CF8042E01DBE4773009CF20B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
